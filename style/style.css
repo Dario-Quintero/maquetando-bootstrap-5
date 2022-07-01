@@ -188,6 +188,18 @@ section h4{
 @media screen and (min-width:1400px){
     .form-detail{
         border: 0;
-        
+    }
+
+    .carrusel-confeccion-detail{
+        max-width: 50%;
+        max-height: ;
+    }
+
+    .image-gabi-detail{
+        max-width: 30%;
+    }
+
+    .descripcion-gabi-detail{
+    max-width: 50%;
     }
 }
