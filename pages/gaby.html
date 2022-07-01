@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+  <html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/9f2423cd09.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../style/style.css">
+    <title> Tienda Gaby Menu</title>
+    <link rel="shortcut icon" href="/images/favicon.ico">
+  </head>
+  <!-- Layout CSS GRID -->
+<body class="layout-grid-gabi">
+  
+  <header>
+
+    <div class="nav-bar">
+
+      <div class="titulo">
+          <h1>  Tienda Gaby </h1>
+        </div>
+
+      <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+
+      <label for="openSidebarMenu" class="sidebarIconToggle">
+
+        <div class="spinner diagonal part-1"></div>
+
+        <div class="spinner horizontal"></div>
+
+        <div class="spinner diagonal part-2"></div>
+      </label>
+
+      <div id="sidebarMenu">
+        <ul class="sidebarMenuInner">
+
+          <li>
+            <a href="../index.html"><i class="fa-solid fa-bars"></i> Menu Principal</a>
+          </li>
+
+          <li>
+            <a href="./tienda.html"><i class="fa-solid fa-store"></i> Tienda</a>
+          </li>
+
+          <li>
+            <a href="./confeccion.html"><i class="fa-solid fa-scissors"></i> Confeccion</a>
+          </li>
+
+          <li>
+            <a href="./clientes.html"><i class="fa-solid fa-shirt"></i> Clientes</a>
+          </li>
+
+          <li>
+            <a href="./gaby.html"><i class="fa-solid fa-child-dress"></i> Gaby</a>
+          </li>
+
+          <li class="redes-bar-menu">
+          <a href="https://www.facebook.com/Tienda-Gabi-109268945086656" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+          <a href="https://instagram.com/tienda.gabriela.peralta?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+    
+          <a href="https://wa.me/+5493512961560" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    
+          <a href="https://www.google.com.ar/maps/place/Taller+de+costura+Gabriela+Peralta/@-31.0245972,-64.0637711,21z/data=!4m5!3m4!1s0x9432630a035ec575:0xce3cf741493f450c!8m2!3d-31.0245902!4d-64.0637831" target="_blank"><i class="fa-solid fa-map-location-dot"></i></a>
+        </li>
+    </div>
+
+
+    </div>
+  </header>
+
+
+    <section class="descripcion-gabi">
+
+      <div class="image-gabi">  
+      </div>
+      
+      <div class="texto-gabi">
+        <p>
+          Soy Gabriela Peralta, tengo 42 años, soy mamá de 1 varón de 19 años, y una apasionada de mí profesión.
+        </p>
+        <p>
+          Soy Diseñadora de indumentaria, pero me dedico a enseñar todo lo que he aprendido a lo largo de los años en los diferentes carreras y cursos realizados...
+        </p>
+        <p>
+          También soy dueña de un negocio dedicado a la costura: telas, mercería, lanas....
+        </p>
+      </div>
+
+    </section>
+
+  <main>
+    <form class="contacto" name="contacto" action="./pages/gracias.html" method="post" enctype="application/x-www-form-urlencoded">
+
+      <legend><i class="fa-solid fa-phone"></i> Contacto</legend>
+        <div class="nombre-apellido">  
+          <label for="nombre y apellido">Nombre y Apellido: </label>
+          <input type="text" name="nombre y appelido" id="nombre_apellido" placeholder="Ingresa tu Nombre y Apellido"/>
+        </div>
+        <div class="num-telefono">
+          <label for="numero de telefono"> Numero de telefono</label>
+          <input type="text" name="numero de telefono" id="numero_telefono" placeholder="Ingresa tu numero de telefono">
+        </div>  
+        <div class="tipo-telefono"> 
+          <p>Marque su tipo de telefono </p> 
+          <label for="telefono fijo o movil"> </label>
+          <div class="tipo-telefono-fijo">
+            <input type="radio" name="telefono_fijo_movil" id="fijo" value="Fijo" />
+            <label for="fijo">Fijo</label>
+          </div>
+          <div class="tipo-telefono-movil">
+            <input type="radio" name="telefono_fijo_movil" id="movil" value="Movil" />
+            <label for="movil">Movil</label>
+          </div>
+        </div>
+        <div class="cuadro-consulta">
+          <label for="consulta">Consulta</label>
+          <textarea name="consulta" id="consulta" rows="15" cols="35"></textarea>
+        </div>
+        <div class="enviar-vaciar-consulta">
+          <input type="submit" value="Enviar consulta"/>
+          <input type="reset" value="Vaciar consulta"/>
+        </div>
+    </form>
+  </main>
+
+  <footer class="footer">
+    <div class="redes">
+      <a href="https://www.facebook.com/Tienda-Gabi-109268945086656" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+
+      <a href="https://instagram.com/tienda.gabriela.peralta?igshid=YmMyMTA2M2Y=" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+
+      <a href="https://wa.me/+5493512961560" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+
+      <a href="https://www.google.com.ar/maps/place/Taller+de+costura+Gabriela+Peralta/@-31.0245972,-64.0637711,21z/data=!4m5!3m4!1s0x9432630a035ec575:0xce3cf741493f450c!8m2!3d-31.0245902!4d-64.0637831" target="_blank"><i class="fa-solid fa-map-location-dot"></i></a>
+    </div>
+    
+    <div class="copyright">
+      <p>Copyright <i class="fa-regular fa-copyright"></i> Todos los derechos reservados.</p>
+    </div> 
+  </footer>
+  </body>
+</html>
