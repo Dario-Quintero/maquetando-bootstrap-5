@@ -1,0 +1,48 @@
+.img-gabi-principal{
+    max-width: 315px;
+}
+
+.next-previous-detail{
+    border: 3px solid #795034;
+    border-radius: 13px;
+}
+
+div .container-fluid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container-fluid {
+    margin: none;
+    margin-left: none;
+    margin-right: none;
+}
+
+#carouselWithIndicators{
+    width: 95%;
+    margin: auto;
+}
+
+.carousel-item img{
+    border: 3px solid #795034;
+    border-radius: 15px;
+}
+
+section{
+    margin-top: 10px;
+    padding: 10px;
+
+    color: #795034;
+    text-shadow: 1px 1px 1px #fda4ba;
+
+    border-top: 3px solid #795034;
+
+}
+
+.fa-thumbtack{
+    color: #795034;
+    text-shadow:none;
+    transform: rotate(45deg);
+    margin-right: 0.5rem;
+}
