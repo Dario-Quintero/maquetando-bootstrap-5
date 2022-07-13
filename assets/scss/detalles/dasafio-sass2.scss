@@ -1,0 +1,36 @@
+$rosita: #fda4ba;
+$marron: #795034;
+$crema: #F5eee8;
+
+// Map //
+$colors:(
+rosita: #fda4ba,
+marron: #795034,
+crema: #F5eee8,
+);
+
+// Each //
+@each $name-color, $bgcolor in $colors {
+
+    .background-#{$name-color} 
+    {
+        background-color: $bgcolor;
+    }
+}
+
+// Mixin //
+
+@mixin sizes($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.body-desktop{
+    @include sizes(75vw, 100vh);
+// Extend //
+    &-section{
+        @extend .background-crema;
+        border: 3px solid $marron;
+    }
+} 
+
